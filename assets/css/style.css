@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #1bbd36;
+  color: darkgreen;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1bbd36;
+  background: darkgreen;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -93,7 +93,7 @@ h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #header .logo a {
@@ -101,7 +101,7 @@ h6 {
 }
 
 #header .logo a span {
-  color: #1bbd36;
+  color: darkgreen;
 }
 
 #header .logo img {
@@ -129,7 +129,7 @@ h6 {
 }
 
 .header-social-links a:hover {
-  color: #1bbd36;
+  color: darkgreen;
 }
 
 @media (max-width: 768px) {
@@ -172,7 +172,7 @@ h6 {
   font-weight: 600;
   color: #111;
   white-space: nowrap;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   transition: 0.3s;
 }
 
@@ -187,7 +187,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #1bbd36;
+  color: darkgreen;
 }
 
 .navbar .dropdown ul {
@@ -203,7 +203,7 @@ h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
-  border-top: 2px solid #1bbd36;
+  border-top: 2px solid darkgreen;
 }
 
 .navbar .dropdown ul li {
@@ -225,7 +225,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #1bbd36;
+  color: darkgreen;
 }
 
 .navbar .dropdown:hover>ul {
@@ -324,7 +324,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #1bbd36;
+  color: darkgreen;
 }
 
 .navbar-mobile .getstarted,
@@ -359,7 +359,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #1bbd36;
+  color: darkgreen;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -406,7 +406,7 @@ h6 {
   background: rgba(4, 4, 4, 0.7);
   padding: 20px;
   color: #fff;
-  border-top: 5px solid #1bbd36;
+  border-top: 5px solid darkgreen;
 }
 
 #hero .carousel-content h2 {
