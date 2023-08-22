@@ -1,6 +1,6 @@
 # squeakincgames
 
-Website for board game company Squeak Inc.
+Website for board game company squeak inc.
 
 ## gh pages link
 
