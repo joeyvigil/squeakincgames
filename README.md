@@ -6,6 +6,8 @@ Website for board game company squeak inc.
 
 <https://joeyvigil.github.io/squeakincgames/>
 
+<https://squeakincgames.com/>
+
 Thanks for downloading this template!
 
 Template Name: Company
