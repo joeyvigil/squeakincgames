@@ -1,22 +1,20 @@
 # Gorbinos Quest Rules
 
----
+### Glossary and Components
 
-### Glossary
-
-- Talents 
+- Talents
+- Resources
+- cards
 
 ---
 
 ### Setup
 
-##### Setup
-
 - Randomly place resource tokens on board
 - Each players disks start at 0 Victory Points and 0 income
 - Shuffle "Adjacent Build" "Distant Build" and "Technology" decks and place on board
 
-##### Starting Resources
+##### Starting Cards
 
 - Each player receives all 6 "starter cards"
   - Starter: Loan
@@ -28,7 +26,7 @@
 
 ##### Starting Resources
 
-First player is chosen randomly. Turn order is clockwise from first player.
+First player is chosen randomly. (tip on how to pick a player by "dropping") Turn order is clockwise from first player.
 
 - Player 1: nothing
 - Player 2: 1 Food + 3 Talents
