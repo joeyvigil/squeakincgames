@@ -3,14 +3,19 @@
 ### Glossary and Components
 
 - Talents
+    > picture of all talent tokens and values and number included
 - Resources
+    > picture of all 5 resources in the following format (word) = (pic of symbol) = (pic of cubes, and number included)
+- Cities
+    > picture of wooden houses in each color
 - cards
+    > picture of all card types, and number included
 
 ---
 
 ### Setup
 
-- Randomly place resource tokens on board
+- Randomly place all 30 resource tokens on board (picture of them)
 - Each players disks start at 0 Victory Points and 0 income
 - Shuffle "Adjacent Build" "Distant Build" and "Technology" decks and place on board
 
@@ -34,6 +39,8 @@ First player is chosen randomly. (tip on how to pick a player by "dropping") Tur
 - Player 4: 1 Coal + 9 Talents
 - Player 5: 1 Silver + 12 Talents
 - Player 6: 1 Gold + 15 Talents
+
+> picture of fully setup board
 
 ---
 
