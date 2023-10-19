@@ -21,8 +21,6 @@
 - Player sheet (holds discard, resource and money spot, references, picture of race?)
     > pic of character sheets
 
----
-
 ## Setup
 
 - Randomly place all 30 city resource tokens on board (picture of them)
@@ -54,8 +52,6 @@ First player is chosen randomly. (tip on how to pick a player by "dropping") Tur
 
 > picture of fully setup board
 
----
-
 ## Player Turn
 
 Player turn consists of the following:
@@ -71,8 +67,6 @@ Player turn consists of the following:
      - Purchase "Adjacent Building" card
      - Purchase "Distant Building" card
      - Build normally
-
----
 
 ## End Game Scoring
 
@@ -99,8 +93,6 @@ Winner is determined by most Victory Points. Victory points are determined by ad
 
 = Total Victory Points
 
----
-
 ## Build+Trade Reference
 
 ### Build costs
@@ -118,8 +110,6 @@ Wood (brown cube): 7 Talents
 Coal (black cube): 9 Talents
 Silver (grey cube): 15 Talents
 Gold (yellow cube): 20 Talents
-
----
 
 ### Scoring Example
 
