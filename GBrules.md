@@ -1,6 +1,6 @@
 # Gorbinos Quest Rules
 
-### Components
+## Components
 
 - Rule Sheet 1
 - Game board
@@ -21,10 +21,9 @@
 - Player sheet (holds discard, resource and money spot, references, picture of race?)
     > pic of character sheets
 
-
 ---
 
-### Setup
+## Setup
 
 - Randomly place all 30 city resource tokens on board (picture of them)
 - Each players disks start at 0 Victory Points and 0 income
@@ -32,7 +31,7 @@
 - Flip the top card of the "Adjacent Build" "Distant Build" decks and place in the spot open spot next to it
 - Flip the top 5 cards of the "Technology" deck and put them in the corresponding spots next to the deck.
 
-##### Starting Cards
+### Starting Cards
 
 - Each player a hand of the following cards:
   - Starter: Loan
@@ -42,7 +41,7 @@
   - Starter: Reset
   - Starter: Build
 
-##### Starting Resources
+### Starting Resources
 
 First player is chosen randomly. (tip on how to pick a player by "dropping") Turn order is clockwise from first player.
 
@@ -57,7 +56,7 @@ First player is chosen randomly. (tip on how to pick a player by "dropping") Tur
 
 ---
 
-### Player Turn
+## Player Turn
 
 Player turn consists of the following:
 
@@ -75,9 +74,9 @@ Player turn consists of the following:
 
 ---
 
-### End Game Scoring
+## End Game Scoring
 
-##### End game trigger
+### End game trigger
 
 The game ends after the last technology card is purchased.
 
@@ -102,9 +101,9 @@ Winner is determined by most Victory Points. Victory points are determined by ad
 
 ---
 
-### Build+Trade Reference
+## Build+Trade Reference
 
-##### Build costs:
+### Build costs
 
 Food Town: 20 Talents
 Wood Town: 1 Food + 10 Talents
@@ -112,7 +111,7 @@ Coal Town: 1 Food + 1 Wood
 Silver Town: 1 Coal + 5 Talents
 Gold Town: 1 Coal + 10 Talents
 
-##### Trade values
+### Trade values
 
 Food (pink cube): 5 Talents
 Wood (brown cube): 7 Talents
@@ -122,7 +121,7 @@ Gold (yellow cube): 20 Talents
 
 ---
 
-##### Scoring Example
+### Scoring Example
 
 - Purple
     > pic
