@@ -56,7 +56,7 @@ First player is chosen randomly. (tip on how to pick a player by "dropping") Tur
 
 Player turn consists of the following:
 
-1. Gain Talents equal to the income tracker
+1. Gain/pay Talents equal to the income tracker
 2. Play a card from your hand at take its action, place that card in your personal discard
    - Loan: Trade income for Talents
    - Production: Produce resources
