@@ -92,8 +92,8 @@ Winner is determined by most Victory Points. Victory points are determined by ad
     > picture: (blue tag) x (picture of all 5 city tokens) x (big 2)
 - Dominance: Red Tags x # of regions you have the most cities in (ties do not count) x3
     > picture: (red tag) x (providence with "most cities" written on it) x (big 3)
-- Consistency: Pink Tags x 6 +
-    > picture: (pink tag) x (big 6)
+- Consistency: Pink Tags x 8 +
+    > picture: (pink tag) x (big 8)
 - Achievement Tokens
     > picture: Achievement tokens
 
@@ -170,7 +170,7 @@ gold city = 1 coal + 10 ₡
 - Game ends after last technology card is purchased
 - Winner is determined by who has the most Victory Points (VPs)
 - Victory Points are the addition of the following
-  - VPs = # (pink tags) x 6
+  - VPs = # (pink tags) x 8
   - VPs = # (purple tags) x 20₡
   - VPs = # (yellow tags) x cities
   - VPs = # (blue tags) x resource types x2
