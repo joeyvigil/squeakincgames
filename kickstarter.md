@@ -23,7 +23,7 @@ Whether you're a seasoned strategist or new to the world of board games, "Gorbin
 ## 🏆 Premium Edition: 
 Back our project to secure an exclusive collector's edition, featuring the Gorbino's Quest - Standard Edition, a deluxe cloth playing mat, and beautifully crafted coins that will make your gaming sessions truly legendary.
 
-*components and collectors editon extras*
+*components and collectors edition extras*
 
 ## 🌟 Stretch Goals Unveiled:
 As our campaign surges beyond expectations, we've crafted exciting stretch goals to enhance your gaming experience. Unlock these exclusive features and upgrades as we reach new funding milestones, making "Gorbino's Quest" even more epic:
