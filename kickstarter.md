@@ -53,3 +53,17 @@ Don't miss your chance to be among the first to experience the thrill of "Gorbin
 > Unleash your strategic prowess, forge alliances, and shape the destiny of Eldoria – "Gorbino's Quest" awaits. Are you ready to answer the call? 🗡️🛡️
 
 
+----------------
+Loan Cards: Sacrifice trade income for an immediate influx of coins. Navigate economic challenges with strategic financial decisions.
+
+Production Cards: Channel the resources of Eldoria to produce valuable commodities. Build your empire and secure the foundation of your quest.
+
+Trade Cards: Navigate the bustling markets of Gorbino's Quest. Buy and sell resources to optimize your strategy and seize opportunities.
+
+Development Cards: Unlock the potential of advanced technologies. Purchase development cards to gain strategic advantages and shape the destiny of your quest.
+
+Reset Cards: Manipulate fate by retrieving cards from the discard pile into your hand. Simultaneously gain income, ensuring your resources remain abundant.
+
+Treachery Cards: Unleash cunning schemes to hinder your opponents. Employ treacherous tactics to disrupt their plans and gain a strategic advantage.
+
+Build Cards: Lay the foundations of mighty cities, establishing your dominion over Eldoria. Gain income as your cities prosper and contribute to your grand quest.****
