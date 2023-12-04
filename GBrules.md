@@ -64,15 +64,17 @@ Player turn consists of the following:
 
 1. Gain/pay ₡oins equal to the income tracker
 2. Play a card from your hand at take its action, place that card in your personal discard
-   - Loan: Trade income for ₡oins
+   - Loan: Trade income for ₡
    - Production: Produce resources
    - Trade: Buy and sell resources
-   - Development: Purchase "Technology" cards
-   - Reset: Place discard into hand, gain income
+   - Development: Purchase “Technology” cards
+   - Reset: Place cards from discard into hand, gain income, cycle build decks
+   - Treachery:  Negatively effects your opponents
    - Build:
      - Normal Build
      - Resource Build
      - Province Build
+
 
 ## End Game Scoring
 
