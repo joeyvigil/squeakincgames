@@ -1,181 +1,411 @@
-# Gorbino's Quest Rules
+--- page 1--- 
 
-## Components
-
-- Rule Sheet
-- Game board
-- Box
-- ₡oins (ie Money)
-    > picture of all ₡oin tokens and values and number included
-    > (30 1₡) (10 5₡) (10 10₡) (10 20₡) (5 100₡)
-- Resources
-    > picture of all 5 resources in the following format (word) = (pic of symbol) = (pic of cubes, and number included)
-    > 20 of each color
-- Cities
-    > picture of wooden houses in each color
-    > 15 of each color
-- Cards
-    > picture of all card types, and number included
-    > 36 starter cards, 42 Technology cards, 10 Resource build card, 10 Province build cards, 6 reference cards
-- City Resource Tokens
-    > picture of starting resource tokens (30) 'Resource Build' tokens (10)
-- Achievement Tokens
-    > picture of achievement tokens (12)
-- Disks (for tracking Victory Points and Income)
-    > picture
-    > 2 for each color
-
-## Setup
-
-- Randomly place all 30 city resource tokens on board (picture of them)
-- Each players disks start at 0 Victory Points and 0 income
-- Shuffle "Resource Build" "Province Build" and "Technology" decks
-- Place the "Resource Build" and "Province Build" decks face up
-- Place the "Technology" deck face down and place the first 5 Technology cards face up in the spaces above the map
-    > pic of fully setup board
-
-### Starting Cards
-
-- Each player a hand of the following cards:
-  - Starter: Loan
-  - Starter: Production
-  - Starter: Trade
-  - Starter: Development
-  - Starter: Reset
-  - Starter: Build
-     > pic of all cards splayed
-
-### Starting Resources
-
-First player is chosen randomly. (tip on how to pick a player by "dropping") Turn order is clockwise from first player.
-
-- Player 1: nothing
-- Player 2: 1 Food + 3 ₡oins
-- Player 3: 1 Wood + 6 ₡oins
-- Player 4: 1 Coal + 9 ₡oins
-- Player 5: 1 Silver + 12 ₡oins
-- Player 6: 1 Gold + 15 ₡oins
-
-> picture of fully setup board
-
-## Player Turn
-
-Player turn consists of the following:
-
-1. Gain/pay ₡oins equal to the income tracker
-2. Play a card from your hand at take its action, place that card in your personal discard
-   - Loan: Trade income for ₡
-   - Production: Produce resources
-   - Trade: Buy and sell resources
-   - Development: Purchase “Technology” cards
-   - Reset: Place cards from discard into hand, gain income, cycle build decks
-   - Treachery:  Negatively effects your opponents
-   - Build:
-     - Normal Build
-     - Resource Build
-     - Province Build
+Contents
+Rule Sheet (this)
+Game Board
 
 
-## End Game Scoring
+36 Starter Cards
+42 Technology Cards
+6 Reference Cards
+10 Victory Point Cards
 
-### End game trigger
 
-The game ends after the last technology card is purchased.
 
-Winner is determined by most Victory Points. Victory points are determined by adding the following:
 
-- Wealth: Purple Tags x 20 ₡oins
-    > picture: (purple tag) x (20 ₡oins token)
-- Polycentric: Yellow Tags x # of cities
-    > picture: (yellow tag) x (city on city resource token)
-- Metropolis: Green Tags x # of providences x2
-    > picture: (green tag) x (providence with "at least 1 city built" written on it) x (big 2)
-- Abundance: Blue Tags x # of production types (food, wood, coal, silver, gold) x2
-    > picture: (blue tag) x (picture of all 5 city tokens) x (big 2)
-- Dominance: Red Tags x # of regions you have the most cities in (ties do not count) x3
-    > picture: (red tag) x (providence with "most cities" written on it) x (big 3)
-- Consistency: Pink Tags x 8 +
-    > picture: (pink tag) x (big 8)
-- Achievement Tokens
-    > picture: Achievement tokens
 
-= Total Victory Points
 
-## Build + Trade Reference
 
-### Build costs
 
-Food City: 20 ₡oins
-Wood City: 1 Food + 10 ₡oins
-Coal City: 1 Food + 1 Wood
-Silver City: 1 Coal + 5 ₡oins
-Gold City: 1 Coal + 10 ₡oins
 
-### Scoring Example
 
-- Purple
-    > pic
-- Yellow
-    > pic
-- Green
-    > pic
-- Blue
-    > pic
-- Red
-    > pic
-- Pink
-    > pic
+30 City Resource Tokens
 
-## Lore
 
-  -lore here
 
-## Short rules
 
-### Quick Setup
 
-- Place starting city resource tiles
-- Place "Resource Build", "Province Build" and "Technology" deck as well as the first 5 "Technology" cards
-- Each player gets a hand of the following cards: Starter: Loan, Starter: Production, Starter: Trade, Starter: Development, Starter: Reset, Starter: Build
-- Players start with the following resources
-  - Player 1: nothing
-  - Player 2: 1 Food + 3 ₡oins
-  - Player 3: 1 Wood + 6 ₡oins
-  - Player 4: 1 Coal + 9 ₡oins
-  - Player 5: 1 Silver + 12 ₡oins
-  - Player 6: 1 Gold + 15 ₡oins
 
-### Symbols
 
-₡=₡oins= (coin)
-food= (pink cube)
-wood= (brown cube)
-coal= (black cube)
-silver= (grey cube)
-gold= (yellow cube)
+70 Money Coins (Digital Counter on Tabletop Sim)
 
-### Build Cost
 
-food city = 20 ₡
-wood city = 1 food + 10 ₡
-coal city = 1 food + 1 wood
-silver city = 1 coal + 5 ₡
-gold city = 1 coal + 10 ₡
 
-### Turn
 
-1. Gain/Pay ₡ based on the income tracker
-2. Play a card from your hand and discard it
 
-### Scoring
 
-- Game ends after last technology card is purchased
-- Winner is determined by who has the most Victory Points (VPs)
-- Victory Points are the addition of the following
-  - VPs = # (pink tags) x 8
-  - VPs = # (purple tags) x 20₡
-  - VPs = # (yellow tags) x cities
-  - VPs = # (blue tags) x resource types x2
-  - VPs = # (red tags) x provinces with most cities x3
-  - VPs = # (green tags) x provinces x2
-  - Achievement Tiles
+
+
+
+90 Cities (Wooden Catan Houses) in Red, Blue, Green, Brown, White, Orange
+
+
+
+
+
+
+6 Income Tracking Disks in Red, Blue, Green, Brown, White, Orange
+
+
+
+
+
+
+20 Pink Food Cubes, 20 Brown Wood Cubes, 20 Black Coal Cubes, 20 Gray Iron Cubes, 20 Yellow Gold Cubes
+
+
+
+
+
+Symbols
+₡=Coins=----      Food=----
+Wood=----                     Coal=----
+Iron=----      Gold=----
+OVERVIEW
+
+	Gorbino’s Quest is a must-have competitive Eurogame that seamlessly blends drafting, area control, and resource management. As you embark on a thrilling journey, take on the role of unique kingdoms in Eldoria, each vying to craft the most advanced society. Earn points by expanding your kingdom and collecting different colored tags which are located on the top of most cards. Best of luck adventurer!
+SETUP
+
+Place starting 10 city capital tokens (Tokens with ‘C’) on the 10 C locations on the map.
+Place the 20 remaining tokens (Tokens with ‘START’) on the remaining locations.
+pic (capital token -> capital board, starter token ->starter board
+in a 2 player game remove tokens from islands + forest _raven
+in a 3 player game remove tokens from islands
+[A] Flip all the tokens to reveal their production types.
+
+
+The player who has most recently dug a planting bed in their garden takes the 1st player marker. (but not really, just pick someone randomly)
+[A] Shuffle the “Technology” deck, place face down on the board (above map). Then place top 6 technology cards on the Technology track.
+[A]Shuffle and draw 6 Victory Point cards so that each card corresponds to one of the color tags. Slide the tagged portion of each card under the board so that both the color tag of the board and the victory point condition of the card are visible.
+[A] Place ₡oins and resource cubes on the side of the board so that they are easily reachable.
+Each player picks a color that will correspond to their  income tracking disk and cities.
+[A] Place disks for each player color on 0 of income tracker.
+In a 2 player game,
+
+
+
+
+PLAYER:
+[A] All player receive their cities of the same color as their income tracking disk.
+[A] All player receive 1 food city: Starting from last player to first, all players place a city on one of the pink city resource tokens on the map. 
+[A] All player receive 2 resources of their choice: Starting from first player to last, all player take two  resources. If it’s your first time playing, its suggested to take a food and a wood in order to build a city on a coal prodcution token.
+[A] Each player gets a hand of the following cards: Starter Loan, Starter Production, Starter Trade, Starter Development, Starter Reset, Starter Build.
+
+
+--- page 2,3--- 
+
+Contents
+Rule Sheet (this)
+Game Board
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+36 Starter Cards
+42 Technology Cards
+6 Reference Cards
+10 Victory Point Cards
+
+
+
+
+
+
+
+
+
+
+30 City Resource Tokens
+
+
+
+
+
+
+
+70 Money Coins (Digital Counter on Tabletop Sim)
+
+
+
+
+
+
+
+
+
+90 Cities (Wooden Catan Houses) in Red, Blue, Green, Brown, White, Orange
+
+
+
+
+
+
+6 Income Tracking Disks in Red, Blue, Green, Brown, White, Orange
+
+
+
+
+
+
+20 Pink Food Cubes, 20 Brown Wood Cubes, 20 Black Coal Cubes, 20 Gray Iron Cubes, 20 Yellow Gold Cubes
+
+
+
+
+
+Symbols
+₡=Coins=----      Food=----
+Wood=----                     Coal=----
+Iron=----      Gold=----
+OVERVIEW
+
+	Gorbino’s Quest is a must-have competitive Eurogame that seamlessly blends drafting, area control, and resource management. As you embark on a thrilling journey, take on the role of unique kingdoms in Eldoria, each vying to craft the most advanced society. Earn points by expanding your kingdom and collecting different colored tags which are located on the top of most cards. Best of luck adventurer!
+SETUP
+
+Place starting 10 city capital tokens (Tokens with ‘C’) on the 10 C locations on the map.
+Place the 20 remaining tokens (Tokens with ‘START’) on the remaining locations.
+pic (capital token -> capital board, starter token ->starter board
+in a 2 player game remove tokens from islands + forest _raven
+in a 3 player game remove tokens from islands
+[A] Flip all the tokens to reveal their production types.
+
+
+The player who has most recently dug a planting bed in their garden takes the 1st player marker. (but not really, just pick someone randomly)
+[A] Shuffle the “Technology” deck, place face down on the board (above map). Then place top 6 technology cards on the Technology track.
+[A]Shuffle and draw 6 Victory Point cards so that each card corresponds to one of the color tags. Slide the tagged portion of each card under the board so that both the color tag of the board and the victory point condition of the card are visible.
+[A] Place ₡oins and resource cubes on the side of the board so that they are easily reachable.
+Each player picks a color that will correspond to their  income tracking disk and cities.
+[A] Place disks for each player color on 0 of income tracker.
+In a 2 player game,
+
+
+
+
+PLAYER:
+[A] All player receive their cities of the same color as their income tracking disk.
+[A] All player receive 1 food city: Starting from last player to first, all players place a city on one of the pink city resource tokens on the map. 
+[A] All player receive 2 resources of their choice: Starting from first player to last, all player take two  resources. If it’s your first time playing, its suggested to take a food and a wood in order to build a city on a coal prodcution token.
+[A] Each player gets a hand of the following cards: Starter Loan, Starter Production, Starter Trade, Starter Development, Starter Reset, Starter Build.
+
+
+--page 4,5---
+
+GAMPLAY 
+OVERVIEW
+
+Player Turn
+	Starting from first player to last going clockwise, all players take one turn. On a player’s turn, players play a card from their hand and discard it into their personal discard. 
+
+Each Round
+After all player have taken their turn, do the following:
+1. Advance Technology Track: Discard the rightmost technology card from the track and shift all remaining cards to the right. Then, replenish the track by adding a new technology card. 
+2. Gain/Pay ₡ based on the income tracker. Example: if your income is at +8, then gain 8 ₡oins from the bank. If your income is at -3, then pay 3 ₡oins to the bank (if you can).
+3. Rotate 1st player marker clockwise, 1st player starts their turn.
+
+Game End
+Game ends immediately after the last technology card is purchased or discarded.
+Winner is determined by who has the most Victory Points (VPs). (see scoring section)
+
+Example of play
+	Starting from first player to last going clockwise, all players take one turn. On a player’s turn, players play a card from their hand and discard it into their personal discard. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CARDS
+
+Loan
+	After playing a Loan card, adjust your income marker and gain ₡oins accordingly. Example: when playing the starter Loan card, a player may choose to ‘Trade 2 income for 30 ₡oins,’ moving their income marker from 0 to -2 and receiving 30 ₡ from the bank.
+
+
+Trade
+	Player may buy/sell up to two types of goods with the bank in any amount. Example: Player plays a starter trade card and sells 4 food and buys 2 iron for a total cost of 10₡. Math: (+4x5₡ - 2x15₡ = -10₡). 
+Maximum Coins: The maximum coins a player can ever have is 300. Any excess must be returned to maintain this limit. 
+Unlimited Resources: Resources are not limited.  If the bank runs out, then players can place a resource cube on a money token to signify that amount such as place a food cube on a 10 ₡ coin to signify 10 food.
+
+Production
+	Players first receive resources from the bank and/or lab as indicated on the card. They then choose one province on the map and all cities in that province produce resources, even if they belong to another player. Example: Player plays a starter production card, receives a gold resource that was located in the lab, then chooses Drakewood.  That player has a city built on a food, gold, and iron token in that province and another player has a city built on a wood token. Both players gets their corresponding resources.
+
+Reset
+	Player places cards from their discard into their hand. Example: Player plays a starter reset card. That player places the top 5 cards of their discard into their hand. Note: the starter reset will always remain in your hand. Note: you can retrive less than the max amount.
+
+Treachery
+	Players may steal resources, buy resources for a low cost, or take the actions of cards from other players.
+Development
+	Player can purchase technology cards with resources going to the lab. Place the acquired cards in your hand. Example: Player plays their starter development card. They choose to purchase a green build card on the +0₡ location and a purple loan card on the +5₡ location. The total cost is (iron + gold + 0₡) + (10₡ + food + 5₡). The iron, gold and food go to the lab which is located below the technology deck, the coins go to the bank. After the purchase(s), all remaining technology cards inside the track move to the right if their right position is empty, and the track is replenished.
+
+Build
+1. Choose a token adjacent to one of your cities.
+Adjacent Definition- Connected by a road.
+2. Pay the build cost based on the city type:
+--- = 20 ₡
+--- =   --- + 10 ₡
+--- = --- + ---     
+--- = --- + 5 ₡
+--- = --- + 10 ₡
+
+3. Place a city on that token. 
+4. Gain the designated income.
+
+	Example: Player plays a starter build card. Player looks at all cities adjacent to their current cities and decides to place it on a gold production token. They then pay the build cost of 1 coal and 10 ₡ and place one of their cities on that token. They then gain 3 income as indicated on the card, sliding their income tracking  disk.
+
+Overbuilding: Players may also build on a location where there is already a city, with an additional cost. Example: A coal city resource token has another player built on it. Player can still build on the resource token for an additional 10₡. The total build cost for this would be 1 food, 1 wood and 10₡. Players may overbuild on their own cities.
+
+
+---page 6,7---
+
+SCORING
+
+The top of most cards contains tags that look like the following:
+Tje
+
+
+
+
+Players receive VPs based off of the tags they have at the end of the game in their hand and discard.
+
+Victory Points
+Show side of board with victory point cards.
+
+
+Pink Tags: Consistency
+VPs = # --- x6
+Pink tags grant six VPs each. Example: 2 pink cards yield 12 VPs.
+
+Purple Tags: Wealth
+VPs = # --- x (₡oins at end / 20)
+Purple tags award points based on leftover coins divided by 20 (rounded down). Example: 2 purple tags and 110 ₡ result in 10 VPs.
+
+Yellow Tags: Empire
+VPs = # --- x cities
+Yellow tags provide points for the player’s total cities. Example: 3 yellow tags and 7 cities yield 21 VPs.
+
+Blue Tags: Abundance
+VPs = # --- x city resource production types x2
+Blue tags gives points for cities built on different production types. Example: Player has 2 food cities, 3 coal cities and 1 gold city. This would be three production types (food, coal, gold). This would give 2x3=6 VPs per blue tag.
+
+Red Tags: Dominance
+VPs = # --- x provinces with most cities x3
+Red tags award points for having the most cities in a province.
+
+Green Tags: Scattered
+VPs = # --- x provinces with at least 1 city x2
+Green tags score points for each province with at least one city.
+
+
+
+
+
+
+
+
+
+
+
+
+Example: Blue player, with 6 cities, scores 6 points per yellow tag, 8 VP per blue tag (with 4 production types), 6 VP per red tag (having the most cities in Dragonspire and Faeloria), and 8 VP per green tag (having at least 1 city in Misthaven, Dragonspire, Goldendale, and Faeloria).
+
+
+SCORING
+
+Game End
+Game ends immediately after the last technology card is purchased or discarded.
+Winner is determined by who has the most Victory Points (VPs).
+
+Scoring
+The top of most cards contains tags that look like the following:
+
+
+
+
+Players receive VPs based off of the tags they have at the end of the game in their hand and discard.
+
+Pink Tags: Consistency
+VPs = # --- x6
+Pink tags grant six VPs each. Example: 2 pink cards yield 12 VPs.
+
+Purple Tags: Wealth
+VPs = # --- x (₡oins at end / 20)
+Purple tags award points based on leftover coins divided by 20 (rounded down). Example: 2 purple tags and 110 ₡ result in 10 VPs.
+
+Yellow Tags: Empire
+VPs = # --- x cities
+Yellow tags provide points for the player’s total cities. Example: 3 yellow tags and 7 cities yield 21 VPs.
+
+Blue Tags: Abundance
+VPs = # --- x city resource production types x2
+Blue tags gives points for cities built on different production types. Example: Player has 2 food cities, 3 coal cities and 1 gold city. This would be three production types (food, coal, gold). This would give 2x3=6 VPs per blue tag.
+Red Tags: Dominance
+VPs = # --- x provinces with most cities x3
+Red tags award points for having the most cities in a province.
+
+Green Tags: Scattered
+VPs = # --- x provinces with at least 1 city x2
+Green tags score points for each province with at least one city.
+
+
+
+
+
+
+
+
+
+
+
+
+Example: Blue player, with 6 cities, scores 6 points per yellow tag, 8 VP per blue tag (with 4 production types), 6 VP per red tag (having the most cities in Dragonspire and Faeloria), and 8 VP per green tag (having at least 1 city in Misthaven, Dragonspire, Goldendale, and Faeloria).
+
+
+--- page 8
+
+
+EXPANSIONS
+FEAST AND FAMINE: Shuffle 15 of the Year of Plenty and Disaster cards into the technology deck and play their effects as they are drawn.
+SMALLER MAP: Using the Year of Plenty deck, remove provinces one by one by drawing off the top. If the drawn province cuts the map into two inaccessible regions, ignore it and draw the next one. Remove more provinces based off the number of players. 
+	Players:		6/5/4/3/2 
+	Removed Provinces: 	0/1/2/3/4
+
+Thanks for Playing!
+
+Credits
