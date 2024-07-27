@@ -79,8 +79,10 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  background: rgba(0, 0, 0, 0.95);
+  /* background: darkgreen; 
   background: grey;
-  /* background: darkgreen; */
+  */
   transition: all 0.5s; 
   z-index: 997;
   padding: 15px 0;
@@ -587,7 +589,8 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: darkgreen;
+  background: white;
+  /*background: darkgreen;*/
   min-height: 40px;
   margin-top: 72px;
 }
