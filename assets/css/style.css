@@ -84,6 +84,7 @@ h6 {
   z-index: 997;
   padding: 15px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); 
+  /*box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); */
 }
 
 #header .logo {
@@ -217,6 +218,7 @@ h6 {
   font-weight: 500;
   text-transform: none;
   color: #111;
+
 }
 
 .navbar .dropdown ul a i {
@@ -262,7 +264,8 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #111;
+  /*color: #111;*/
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
