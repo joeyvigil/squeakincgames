@@ -80,9 +80,6 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   background: rgba(0, 0, 0, 0.95);
-  /* background: darkgreen; 
-  background: grey;
-  */
   transition: all 0.5s; 
   z-index: 997;
   padding: 15px 0;
