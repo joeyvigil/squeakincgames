@@ -10,45 +10,15 @@ Game Board
 6 Reference Cards
 10 Victory Point Cards
 
-
-
 30 City Resource Tokens
-
-
-
-
-
-
 
 70 Money Coins (Digital Counter on Tabletop Sim)
 
-
-
-
-
-
-
-
-
 90 Cities (Wooden Catan Houses) in Red, Blue, Green, Brown, White, Orange
-
-
-
-
-
 
 6 Income Tracking Disks in Red, Blue, Green, Brown, White, Orange
 
-
-
-
-
-
 20 Pink Food Cubes, 20 Brown Wood Cubes, 20 Black Coal Cubes, 20 Gray Iron Cubes, 20 Yellow Gold Cubes
-
-
-
-
 
 Symbols
 ₡=Coins=----      Food=----
@@ -74,9 +44,6 @@ The player who has most recently dug a planting bed in their garden takes the 1s
 Each player picks a color that will correspond to their  income tracking disk and cities.
 [A] Place disks for each player color on 0 of income tracker.
 In a 2 player game,
-
-
-
 
 PLAYER:
 [A] All player receive their cities of the same color as their income tracking disk.
@@ -84,84 +51,28 @@ PLAYER:
 [A] All player receive 2 resources of their choice: Starting from first player to last, all player take two  resources. If it’s your first time playing, its suggested to take a food and a wood in order to build a city on a coal prodcution token.
 [A] Each player gets a hand of the following cards: Starter Loan, Starter Production, Starter Trade, Starter Development, Starter Reset, Starter Build.
 
-
 --- page 2,3--- 
 
 Contents
 Rule Sheet (this)
 Game Board
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 36 Starter Cards
 42 Technology Cards
 6 Reference Cards
 10 Victory Point Cards
 
-
-
-
-
-
-
-
-
-
 30 City Resource Tokens
-
-
-
-
-
 
 
 70 Money Coins (Digital Counter on Tabletop Sim)
 
 
-
-
-
-
-
-
-
 90 Cities (Wooden Catan Houses) in Red, Blue, Green, Brown, White, Orange
-
-
-
-
-
 
 6 Income Tracking Disks in Red, Blue, Green, Brown, White, Orange
 
-
-
-
-
-
 20 Pink Food Cubes, 20 Brown Wood Cubes, 20 Black Coal Cubes, 20 Gray Iron Cubes, 20 Yellow Gold Cubes
-
-
-
-
 
 Symbols
 ₡=Coins=----      Food=----
@@ -187,8 +98,6 @@ The player who has most recently dug a planting bed in their garden takes the 1s
 Each player picks a color that will correspond to their  income tracking disk and cities.
 [A] Place disks for each player color on 0 of income tracker.
 In a 2 player game,
-
-
 
 
 PLAYER:
