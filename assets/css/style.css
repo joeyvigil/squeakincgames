@@ -399,7 +399,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: var(--Yellow);
+  color: var(--navbar);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
