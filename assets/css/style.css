@@ -21,6 +21,8 @@
 } */
 /* from https://catppuccin.com/palette/ */
 :root {
+  --navbar: grey;
+
   --Rosewater: #dc8a78;
   --Pink: #ea76cb;
   --Mauve: #8839ef;
@@ -221,7 +223,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color:  var(--Yellow);
+  color:  var(--navbar);
 }
 
 .navbar .dropdown ul {
@@ -237,7 +239,7 @@ h6 {
   background: var(--Base0);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
-  border-top: 2px solid var(--Yellow);
+  border-top: 2px solid var(--navbar);
 }
 
 .navbar .dropdown ul li {
@@ -261,7 +263,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: var(--Yellow);
+  color: var(--navbar);
 }
 
 .navbar .dropdown:hover>ul {
@@ -362,7 +364,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: var(--Yellow);
+  color: var(--navbar);
 }
 
 .navbar-mobile .getstarted,
