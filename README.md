@@ -4,6 +4,17 @@
 
 Welcome to squeak inc. Games - a board game company dedicated to creating memorable tabletop experiences that bring people together. We are curators of imagination, architects of connection, and champions of playfulness.
 
+## Links
+
+**Live Website**: <https://squeakincgames.com/>
+
+**GitHub Pages**: <https://joeyvigil.github.io/squeakincgames/>
+
+**Social Media**:
+- Discord: <https://discord.gg/Z5r9G2tFHF>
+- Twitter: <https://twitter.com/SettlersotCosmo>
+- Instagram: <https://www.instagram.com/squeakinc.games/>
+
 ## About the Website
 
 This website serves as the digital home for squeak inc. Games, showcasing our collection of board games, company philosophy, and community engagement. Whether you're a casual player seeking laughter or a strategist hungry for challenges, you'll find your place in our ever-expanding world of games and camaraderie.
@@ -26,17 +37,6 @@ This website serves as the digital home for squeak inc. Games, showcasing our co
 ## Our Mission
 
 At squeak inc. Games, we create experiences that transcend mere gameplay. We believe in the magic of bringing people together around a table, fostering laughter, camaraderie, and memorable moments that last a lifetime. Our games balance strategy, unpredictability, and a sprinkle of squeaky fun, designed to be accessible to newcomers while deeply satisfying for seasoned players.
-
-## Links
-
-**Live Website**: <https://squeakincgames.com/>
-
-**GitHub Pages**: <https://joeyvigil.github.io/squeakincgames/>
-
-**Social Media**:
-- Discord: <https://discord.gg/Z5r9G2tFHF>
-- Twitter: <https://twitter.com/SettlersotCosmo>
-- Instagram: <https://www.instagram.com/squeakinc.games/>
 
 ## Technology
 
