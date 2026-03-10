@@ -2269,3 +2269,16 @@ section {
   color: var(--Base0);
   text-decoration: none;
 }
+
+.btn-contact {
+  background: var(--Green);
+  color: var(--Base0);
+  padding: 8px 20px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.btn-contact:hover {
+  background: var(--Teal);
+  color: var(--Base0);
+}

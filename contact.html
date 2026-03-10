@@ -100,21 +100,33 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="#">Contact</a>
+                <a href="#">Contact Us</a>
               </h2>
 
-              <div class="entry-meta">
-                <ul>
-                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="#">Joey Vigil</a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="#"><time datetime="2020-01-01">Aug 22, 2023</time></a></li>
-                </ul>
-              </div>
-
+              <!-- contact form -->
               <div class="entry-content">
-                <p>
-                  Contact us through any of our socials</b>
-                </p>
-                
+                <form action="https://formsubmit.co/joeygvigil@gmail.com" method="POST">
+                  <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                  </div>
+                  <!-- checkbox  I've read and agree to the terms -->
+                  <div class="form-group form-check mt-3">
+                    <input type="checkbox" class="form-check-input" id="subscribe" name="subscribe" required>
+                    <label class="form-check-label" for="subscribe">I've read and agree to the terms</label>
+                  </div>
+                  <button type="submit" class="btn btn-contact mt-3">Send</button>
+                </form>
+
+
               </div>
 
 
@@ -223,6 +235,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 
 </body>
 
