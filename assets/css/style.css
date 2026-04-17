@@ -78,7 +78,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: var(--Green);
+  background: var(--navbar);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -2265,7 +2265,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: var(--Lavender);
+  background: var(--navbar);
   color: var(--Base0);
   text-decoration: none;
 }
