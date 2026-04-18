@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>squeak inc. - Rust</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <style> :root { --navbar: #7287fd;}</style>
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <!-- <h1 class="logo me-auto"><a href="index.html">squeak inc.</a></h1> -->
+      <a href="../index.html" class="logo me-auto"><img src="../assets/img/logo.png" alt=""></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="../assets/img/apple-touch-icon.png" alt="" class="img-fluid"></a> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+
+          <li class="dropdown"><a href="#" class="active"><span>Games</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="rust.html" class="active">Rust</a></li>
+              <li><a href="gorbinosquest.html">Gorbino's Quest</a></li>
+              <li><a href="bathhouse.html">Spirit Bathhouse</a></li>
+            </ul>
+          </li>
+
+          <li><a href="../faq.html">FAQs</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../resources.html">Resources</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+
+          <div class="header-social-links d-flex">
+            <a href="https://discord.gg/Z5r9G2tFHF" class="discord"><i class="bu bi-discord"></i></i></a>
+            <a href="https://twitter.com/SettlersotCosmo" class="twitter"><i class="bu bi-twitter"></i></a>
+            <a href="https://www.instagram.com/squeakinc.games/" class="instagram"><i class="bu bi-instagram"></i></a>
+          </div>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+   
+
+     <!-- ======= Blog Single Section ======= -->
+      <section id="blog" class="blog">
+        <div class="container" data-aos="fade-up">
+
+          <div class="row">
+
+            <!-- <div class="col-lg-8 entries"> -->
+            <div class="entries">
+              <article class="entry entry-single">
+
+                <div class="entry-img">
+                  <img src="../assets/img/slide2/map.jpg" alt="" class="img-fluid">
+                </div>
+
+                <h2 class="entry-title">
+                  <a href="#">Rust - Trains, Mining & Markets</a>
+                </h2>
+
+                <div class="entry-meta">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="#">Joey Vigil</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="#"><time datetime="2026-04-18">April 18, 2026</time></a></li>
+                  </ul>
+                </div>
+
+                <div class="entry-content">
+
+                  <h2> <a href="https://www.kickstarter.com/projects/joeyvigil/rust-0">🔗 FOLLOW THE PROJECT! 🔗</a> </h2>
+ 
+                  <p>
+                        Rust is a strategic board game where players compete to build the most prosperous railroad empire by bidding on railroads, mining operations, and delivering goods. Inspired by <a href="https://boardgamegeek.com/boardgame/511/silverton">Silverton (1991)</a> and <a href="https://boardgamegeek.com/boardgame/2651/power-grid">Power Grid (2004)</a>, Rust challenges players to optimize their actions and resources to achieve victory.
+                  </p>
+
+                   <h3>Setup</h3>
+                  <p>
+                    Each player starts with a set amount of money. The game board is a map with cities (with what the cities produce) and railroads connecting them (with the railroad cost). There is 4 market cities that buy goods at varying prices and adjust based on how much is sold to them. 
+                  </p>
+
+                  <h3>Game Loop</h3>
+                  <p>
+                    Loop through the following phases:
+                    <ol>
+                      <li><strong>Determine Player Order: </strong>Change player order based on players current money, 1st = most money etc.</li>
+                      <li><strong>Auction Trains: </strong>Bid on available trains, some trains can carry more and deliver more diverse goods.</li>
+                      <li><strong>Auction Mines: </strong>Bid on available mines, mines start with a set amount of resources.</li>
+                      <li><strong>Build Railroads: </strong>Last to first player builds railroads by paying the cost of the railroad and placing it on the board.</li>
+                      <li><strong>Deliveries: </strong>Players may sell to markets that their train network can reach, earning income based on the market prices and the quantity of goods delivered.</li>
+                      <li><strong>Bureaucracy: </strong>Things to set up next round: 
+                         <ul>
+                            <li>Adjust market prices (more deliveries = decrease prices, fewer deliveries = increase prices).</li>
+                            <li>Update season (essentially a round tracker, maybe different seasons have different effects on resource production or market demand?, also says  when different trains "RUST" or stop working).</li>
+                            <li>Remove lowest cost train from game</li>
+                         </ul>
+                      </li>
+                    </ol>
+                  </p>
+
+                  <!-- <p>
+                    <a href="https://boardgamegeek.com/boardgame/406374/gorbinos-quest">🔗 Board Game Geek</a>
+                  </p>
+
+                  <p>
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3111792472">🔗 TableTop Simulator</a>
+                  </p> -->
+
+                  <blockquote>
+                    <p>
+                      <strong>Work in Progress: </strong>Rust is currently in development, and we are actively playtesting and refining the game mechanics. Stay tuned for updates as we continue to improve the gameplay experience.
+                    </p>
+                  </blockquote>
+
+                </div>
+
+
+
+              </article><!-- End blog entry -->
+              
+            </div><!-- End blog entries list -->
+
+          </div>
+
+        </div>
+      </section><!-- End Blog Single Section -->
+
+
+
+  </main><!-- End #main -->
+  
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Headquarters</h3>
+            <p>
+              Cheeseboard Cottage, Gouda Lane <br>
+              Rodentville, RM 12345<br>
+              Whiskerland <br><br>
+              <strong>Phone:</strong> +1 (719) SQU-EAKY <br>
+              <strong>Email:</strong> joey@squeakincgames.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.printplaygames.com/">Print Play Games</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.kickstarter.com/">Kickstarter</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://pandagm.com/">Panda Game Manufacturing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://game-icons.net/">game-icons.net</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://github.com/oatear/cider">CIDEr (html card development program)</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Site Navigation</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../faq.html">FAQs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../blog.html">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../resources.html">Resources</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../about.html">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Socials</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://discord.gg/Z5r9G2tFHF">Discord</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://twitter.com/SettlersotCosmo">Twitter</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/squeakinc.games/">Instagram</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>squeak inc. Games</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
+          Designed with <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://discord.gg/Z5r9G2tFHF" class="discord"><i class="bu bi-discord"></i></i></a>
+        <a href="https://www.instagram.com/squeakinc.games/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://twitter.com/SettlersotCosmo" class="twitter"><i class="bx bxl-twitter"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
