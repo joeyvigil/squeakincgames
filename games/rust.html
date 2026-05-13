@@ -117,29 +117,51 @@
                         Rust is a strategic board game where players compete to build the most prosperous railroad empire by bidding on railroads, mining operations, and delivering goods. Inspired by <a href="https://boardgamegeek.com/boardgame/511/silverton">Silverton (1991)</a> and <a href="https://boardgamegeek.com/boardgame/2651/power-grid">Power Grid (2004)</a>, Rust challenges players to optimize their actions and resources to achieve victory.
                   </p>
 
-                   <h3>Setup</h3>
-                  <p>
-                    Each player starts with a set amount of money. The game board is a map with cities (with what the cities produce) and railroads connecting them (with the railroad cost). There is 4 market cities that buy goods at varying prices and adjust based on how much is sold to them. 
-                  </p>
+                  <h3>Setup</h3>
+                    <ol>
+                      <li>Each player starts with $1500</li>
+                      <li>Each player gets 1 “Ember Cart” train</li>
+                      <li>Reveal delivery cities one at a time. Each must be at least 3 connections apart</li>
+                    </ol>
 
                   <h3>Game Loop</h3>
                   <p>
                     Loop through the following phases:
                     <ol>
                       <li><strong>Determine Player Order: </strong>Change player order based on players current money, 1st = most money etc.</li>
-                      <li><strong>Auction Trains: </strong>Bid on available trains, some trains can carry more and deliver more diverse goods.</li>
-                      <li><strong>Auction Mines: </strong>Bid on available mines, mines start with a set amount of resources.</li>
+                      <li><strong>Auction Mines: </strong>Auction Mines with “most first player”. All players can only win 1 auction. When its your turn to choose a mine to auction, you can pass which also disqualifies you from future bids this season.</li>
+                      <li><strong>Auction Trains: </strong>Bid on available trains, some trains can carry more and rust later.</li>
                       <li><strong>Build Railroads: </strong>Last to first player builds railroads by paying the cost of the railroad and placing it on the board.</li>
                       <li><strong>Deliveries: </strong>Players may sell to markets that their train network can reach, earning income based on the market prices and the quantity of goods delivered.</li>
                       <li><strong>Bureaucracy: </strong>Things to set up next round: 
                          <ul>
                             <li>Adjust market prices (more deliveries = decrease prices, fewer deliveries = increase prices).</li>
-                            <li>Update season (essentially a round tracker, maybe different seasons have different effects on resource production or market demand?, also says  when different trains "RUST" or stop working).</li>
-                            <li>Remove lowest cost train from game</li>
+                            <li>Update season (essentially a round tracker, some seasons may not produce, trains rust after certain years, depletion tokens are added to all mines at the end of the year and make it so the mine stops producing).</li>
+                            <li>Reset train and mine market</li>
                          </ul>
                       </li>
                     </ol>
                   </p>
+
+                  <h3>Game End</h3>
+                  <p>
+                    The game ends after a set number of seasons. The player with the most money at the end of the game is the winner. Short, medium, and long game lengths are possible based on player preference.
+                  </p>
+
+                  <h3>More Rules</h3>
+                  <ol>
+                    <li><strong>Max Trains:</strong> The maximum number of trains you can have is 3</li>
+                    <li><strong>Mine Auction:</strong> 8 mine cards are revealed each round. A new card is revealed after each mine is won</li>
+                    <li><strong>Train Auction</strong> 4 train cards are revealed each round. No replacement when one is bought</li>
+                    <li><strong>Depletion Tokens: </strong> At 3 depletion tokens, a mine stops producing</li>
+                    <li><strong>Deliveries</strong> A train may deliver up to its capacity between a connected mine and delivery city</li>
+                    <li><strong>Building Railroads: </strong>
+                      <ul>
+                        <li>Overbuilding: 2nd player pays 2x, 3rd pays 3x</li>
+                        <li>First railroad must connect to one of your mines</li>
+                        <li>Later railroads must connect to your existing rail network</li>
+                      </ul>
+                  </ol>
 
                   <!-- <p>
                     <a href="https://boardgamegeek.com/boardgame/406374/gorbinos-quest">🔗 Board Game Geek</a>
