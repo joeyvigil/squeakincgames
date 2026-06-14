@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://squeakincgames.com/</loc></url>
+  <url><loc>https://squeakincgames.com/games.html</loc></url>
   <url><loc>https://squeakincgames.com/about.html</loc></url>
   <url><loc>https://squeakincgames.com/blog.html</loc></url>
   <url><loc>https://squeakincgames.com/contact.html</loc></url>
@@ -9,6 +10,5 @@
   <url><loc>https://squeakincgames.com/games/31.html</loc></url>
   <url><loc>https://squeakincgames.com/games/bathhouse.html</loc></url>
   <url><loc>https://squeakincgames.com/games/gorbinosquest.html</loc></url>
-  <url><loc>https://squeakincgames.com/games/handandfoot.html</loc></url>
   <url><loc>https://squeakincgames.com/games/rust.html</loc></url>
 </urlset>
