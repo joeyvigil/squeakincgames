@@ -5,21 +5,21 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Contact squeak inc.</title>
-  <meta content="Contact squeak inc. for inquiries, support, and partnership opportunities." name="description">
+  <title>Our Games — Board &amp; Card Games | squeak inc.</title>
+  <meta content="Browse every tabletop game from Squeak Inc. — Gorbino's Quest, Rust, Thirty One Blitz, Spirit Bathhouse." name="description">
   <!-- Open Graph / Twitter / canonical -->
-  <link rel="canonical" href="https://squeakincgames.com/contact.html">
+  <link rel="canonical" href="https://squeakincgames.com/games.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Squeak Inc.">
-  <meta property="og:title" content="Contact squeak inc.">
-  <meta property="og:description" content="Contact squeak inc. for inquiries, support, and partnership opportunities.">
-  <meta property="og:url" content="https://squeakincgames.com/contact.html">
+  <meta property="og:title" content="Our Games — Board &amp; Card Games | squeak inc.">
+  <meta property="og:description" content="Browse every tabletop game from Squeak Inc. — Gorbino's Quest, Rust, Thirty One Blitz, Spirit Bathhouse.">
+  <meta property="og:url" content="https://squeakincgames.com/games.html">
   <meta property="og:image" content="https://squeakincgames.com/assets/img/logo.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Contact squeak inc.">
-  <meta name="twitter:description" content="Contact squeak inc. for inquiries, support, and partnership opportunities.">
+  <meta name="twitter:title" content="Our Games — Board &amp; Card Games | squeak inc.">
+  <meta name="twitter:description" content="Browse every tabletop game from Squeak Inc.">
   <meta name="twitter:image" content="https://squeakincgames.com/assets/img/logo.png">
-  <meta content="contact, squeak inc, support, inquiries, partnerships, game studio" name="keywords">
+  <meta content="board games, card games, tabletop games, Gorbino's Quest, Rust, Thirty One Blitz, Spirit Bathhouse" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -44,8 +44,53 @@
 
   <!-- Styles -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <style> :root { --navbar: #179299;}</style>
-  
+  <style>
+    :root { --navbar: #df8e1d; }
+
+    .games-hub { padding: 60px 0; }
+    .games-hub .section-title { padding-bottom: 30px; }
+    .games-hub .section-title h2 { font-size: 32px; font-weight: 700; color: #2c2c2c; }
+    .games-hub .section-title p { margin-bottom: 0; color: #6c757d; }
+
+    .game-card {
+      background: #fff;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .game-card:hover { transform: translateY(-6px); box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14); }
+
+    .game-card .game-thumb { aspect-ratio: 16 / 10; overflow: hidden; background: #f3f3f3; }
+    .game-card .game-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease; }
+    .game-card:hover .game-thumb img { transform: scale(1.05); }
+
+    .game-card .game-body { padding: 22px 22px 24px; display: flex; flex-direction: column; flex-grow: 1; }
+    .game-card .game-body h3 { font-size: 20px; font-weight: 700; margin-bottom: 6px; color: #2c2c2c; }
+    .game-card .game-tag { font-size: 13px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--navbar); margin-bottom: 10px; }
+    .game-card .game-body p { font-size: 15px; color: #555; flex-grow: 1; margin-bottom: 18px; }
+
+    .game-card .game-link {
+      align-self: flex-start;
+      display: inline-block;
+      padding: 9px 26px;
+      border-radius: 50px;
+      background: var(--navbar);
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+    .game-card .game-link:hover { opacity: 0.85; color: #fff; }
+
+    .badge-flagship { display: inline-block; background: #2c2c2c; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.05em; padding: 3px 10px; border-radius: 50px; margin-left: 8px; vertical-align: middle; }
+  </style>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Our Games — Squeak Inc.","url":"https://squeakincgames.com/games.html","about":[{"@type":"Game","name":"Gorbino's Quest","url":"https://squeakincgames.com/games/gorbinosquest.html"},{"@type":"Game","name":"Rust","url":"https://squeakincgames.com/games/rust.html"},{"@type":"Game","name":"Thirty One Blitz","url":"https://squeakincgames.com/games/31.html"},{"@type":"Game","name":"Spirit Bathhouse","url":"https://squeakincgames.com/games/bathhouse.html"}]}</script>
 </head>
 
 <body>
@@ -54,30 +99,27 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <!-- <h1 class="logo me-auto"><a href="index.html">squeak inc.</a></h1> -->
       <a href="index.html" class="logo me-auto"><img loading="lazy" src="assets/img/logo.png" alt="Squeak Inc."></a>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img loading="lazy" src="assets/img/apple-touch-icon.png" alt="" class="img-fluid"></a> -->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a href="index.html">Home</a></li>
 
-          <li class="dropdown"><a href="games.html"><span>Games</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="games.html" class="active"><span>Games</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="games.html">All Games</a></li>
-              <li><a href="games/rust.html">Rust</a></li>
               <li><a href="games/gorbinosquest.html">Gorbino's Quest</a></li>
+              <li><a href="games/rust.html">Rust</a></li>
               <li><a href="games/31.html">Thirty One Blitz</a></li>
               <li><a href="games/bathhouse.html">Spirit Bathhouse</a></li>
             </ul>
           </li>
-          
+
           <li><a href="faq.html">FAQs</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="resources.html">Resources</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
 
           <div class="header-social-links d-flex">
             <a href="https://discord.gg/Z5r9G2tFHF" class="discord" aria-label="Discord"><i class="bu bi-discord"></i></a>
@@ -94,73 +136,82 @@
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-      </div>
-    </section><!-- End Breadcrumbs -->
-
-   
-
-     <!-- ======= Blog Single Section ======= -->
-     <section id="blog" class="blog">
+    <!-- ======= Games Hub Section ======= -->
+    <section class="games-hub">
       <div class="container" data-aos="fade-up">
 
-        <div class="row">
-
-          <!-- <div class="col-lg-8 entries"> -->
-          <div class="entries">
-            <article class="entry entry-single">
-
-              <div class="entry-img">
-                <img loading="lazy" src="assets/img/slide/KRANKEN.webp" alt="" class="img-fluid">
-              </div>
-
-              <h2 class="entry-title">
-                <a href="#">Contact Us</a>
-              </h2>
-
-              <!-- contact form -->
-              <div class="entry-content">
-                <form action="https://formsubmit.co/f1ce9dfb0fce08d1a8862ce1c25f2a75" method="POST">
-                  <div class="form-group">
-                    <label for="name">Full Name:</label>
-                    <input type="text" id="name" name="name" class="form-control" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" class="form-control" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-                  </div>
-                  <!-- checkbox  I've read and agree to the terms -->
-                  <div class="form-group form-check mt-3">
-                    <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
-                    <label class="form-check-label" for="terms">I promise this is a real message.</label>
-                  </div>
-                  <button type="submit" class="btn btn-contact mt-3">Send</button>
-                </form>
-
-
-              </div>
-
-
-
-            </article><!-- End blog entry -->
-            
-          </div><!-- End blog entries list -->
-
+        <div class="section-title text-center">
+          <h2>Our Games</h2>
+          <p>Tiny pieces, huge fun — every tabletop title from squeak inc.</p>
         </div>
 
+        <div class="row gy-4">
+
+          <!-- Gorbino's Quest -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="50">
+            <article class="game-card">
+              <a class="game-thumb" href="games/gorbinosquest.html">
+                <img loading="lazy" src="assets/img/slide/map_progress_v1.webp" alt="Gorbino's Quest game board art">
+              </a>
+              <div class="game-body">
+                <h3>Gorbino's Quest <span class="badge-flagship">Flagship</span></h3>
+                <span class="game-tag">Strategy &middot; 2&ndash;6 players &middot; 13+</span>
+                <p>A peaceful strategy game of economic development set in a sprawling fantasy world. Build, trade, and explore your way to victory.</p>
+                <a class="game-link" href="games/gorbinosquest.html">Learn more</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Rust -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="game-card">
+              <a class="game-thumb" href="games/rust.html">
+                <img loading="lazy" src="assets/img/slide2/box_art2.webp" alt="Rust board game box art">
+              </a>
+              <div class="game-body">
+                <h3>Rust</h3>
+                <span class="game-tag">Board Game</span>
+                <p>A tabletop game of survival and decay. Follow the project as the board, art, and gameplay take shape.</p>
+                <a class="game-link" href="games/rust.html">Learn more</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Thirty One Blitz -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <article class="game-card">
+              <a class="game-thumb" href="games/31.html">
+                <img loading="lazy" src="assets/img/slide2/cards31.webp" alt="Thirty One Blitz card game cards">
+              </a>
+              <div class="game-body">
+                <h3>Thirty One Blitz</h3>
+                <span class="game-tag">Card Game</span>
+                <p>A fast, punchy card game learned from some Austrians — a 36-card deck and 18 coins in a pocket-sized box.</p>
+                <a class="game-link" href="games/31.html">Learn more</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Spirit Bathhouse -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article class="game-card">
+              <a class="game-thumb" href="games/bathhouse.html">
+                <img loading="lazy" src="assets/img/slide2/TREE.webp" alt="Spirit Bathhouse game art">
+              </a>
+              <div class="game-body">
+                <h3>Spirit Bathhouse</h3>
+                <span class="game-tag">In Development</span>
+                <p>An upcoming tabletop game now in the works. Take a peek at the mechanics and art as the world comes to life.</p>
+                <a class="game-link" href="games/bathhouse.html">Learn more</a>
+              </div>
+            </article>
+          </div>
+
+        </div>
       </div>
-    </section><!-- End Blog Single Section -->
-
-
+    </section><!-- End Games Hub Section -->
 
   </main><!-- End #main -->
-  
 
 
   <!-- ======= Footer ======= -->
@@ -189,6 +240,8 @@
               <li><i class="bx bx-chevron-right"></i> <a href="https://pandagm.com/">Panda Game Manufacturing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="https://game-icons.net/">game-icons.net</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="https://github.com/oatear/cider">CIDEr (html card development program)</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.fulfillrite.com/">Fulfillrite</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.qmlogistics.com/">Quartermaster Logistics</a></li>
             </ul>
           </div>
 
@@ -225,10 +278,6 @@
           &copy; Copyright <strong><span>squeak inc. Games</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
           Designed with <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
@@ -253,7 +302,6 @@
 
   <!-- Template Main JS File -->
   <script defer src="assets/js/main.js"></script>
-
 
 </body>
 
