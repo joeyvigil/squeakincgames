@@ -2282,3 +2282,65 @@ section {
   background: var(--Teal);
   color: var(--Base0);
 }
+/*--------------------------------------------------------------
+# Newsletter signup (footer strip + homepage CTA)
+--------------------------------------------------------------*/
+#footer .footer-newsletter-strip {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#footer .footer-newsletter-strip h4 {
+  font-size: 22px;
+  margin: 0 0 6px;
+  color: #fff;
+}
+#footer .footer-newsletter-strip p {
+  margin: 0 0 16px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.newsletter-form input[type=email] {
+  flex: 1 1 240px;
+  min-width: 0;
+  padding: 11px 16px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  font-size: 15px;
+  font-family: inherit;
+}
+.newsletter-form input[type=submit] {
+  padding: 11px 28px;
+  border: 0;
+  border-radius: 50px;
+  background: var(--navbar, #df8e1d);
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.newsletter-form input[type=submit]:hover { opacity: 0.85; }
+
+#newsletter-cta {
+  padding: 60px 0;
+  background: #fff7ec;
+  text-align: center;
+}
+#newsletter-cta h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin-bottom: 8px;
+}
+#newsletter-cta p {
+  color: #6c6c6c;
+  margin-bottom: 24px;
+}
