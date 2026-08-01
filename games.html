@@ -66,7 +66,7 @@
     }
     .game-card:hover { transform: translateY(-6px); box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14); }
 
-    .game-card .game-thumb { aspect-ratio: 16 / 10; overflow: hidden; background: #f3f3f3; }
+    .game-card .game-thumb { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: #f3f3f3; }
     .game-card .game-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease; }
     .game-card:hover .game-thumb img { transform: scale(1.05); }
 
@@ -90,6 +90,11 @@
     .game-card .game-link:hover { opacity: 0.85; color: #fff; }
 
     .badge-flagship { display: inline-block; background: #2c2c2c; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.05em; padding: 3px 10px; border-radius: 50px; margin-left: 8px; vertical-align: middle; }
+
+    .game-status { position: absolute; top: 10px; right: 10px; z-index: 2; padding: 5px 12px; border-radius: 50px; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #fff; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25); }
+    .game-status.status-live { background: #2e9e5b; }
+    .game-status.status-dev { background: #d98a0b; }
+    .game-status.status-idea { background: #6c757d; }
   </style>
 
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Our Games — Squeak Inc.","url":"https://squeakincgames.com/games","about":[{"@type":"Game","name":"Gorbino's Quest","url":"https://squeakincgames.com/games/gorbinosquest"},{"@type":"Game","name":"Rust","url":"https://squeakincgames.com/games/rust"},{"@type":"Game","name":"Thirty One Blitz","url":"https://squeakincgames.com/games/31"},{"@type":"Game","name":"Spirit Bathhouse","url":"https://squeakincgames.com/games/bathhouse"},{"@type":"VideoGame","name":"Dan's Labyrinth","url":"https://squeakincgames.com/games/danslabyrinth"},{"@type":"VideoGame","name":"Spaceship Idle","url":"https://squeakincgames.com/games/spaceshipidle"}]}</script>
@@ -161,6 +166,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="50">
             <article class="game-card">
               <a class="game-thumb" href="games/gorbinosquest">
+                <span class="game-status status-live">Playable</span>
                 <img loading="lazy" src="assets/img/slide/map_progress_v1.webp" alt="Gorbino's Quest game board art">
               </a>
               <div class="game-body">
@@ -176,6 +182,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <article class="game-card">
               <a class="game-thumb" href="games/rust">
+                <span class="game-status status-dev">In Development</span>
                 <img loading="lazy" src="assets/img/slide2/box_art2.webp" alt="Rust board game box art">
               </a>
               <div class="game-body">
@@ -191,6 +198,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
             <article class="game-card">
               <a class="game-thumb" href="games/31">
+                <span class="game-status status-live">Playable</span>
                 <img loading="lazy" src="assets/img/slide2/cards31.webp" alt="Thirty One Blitz card game cards">
               </a>
               <div class="game-body">
@@ -206,12 +214,13 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <article class="game-card">
               <a class="game-thumb" href="games/bathhouse">
+                <span class="game-status status-idea">Idea Stage</span>
                 <img loading="lazy" src="assets/img/slide2/TREE.webp" alt="Spirit Bathhouse game art">
               </a>
               <div class="game-body">
                 <h3>Spirit Bathhouse</h3>
-                <span class="game-tag">In Development</span>
-                <p>An upcoming tabletop game now in the works. Take a peek at the mechanics and art as the world comes to life.</p>
+                <span class="game-tag">Board Game</span>
+                <p>An early concept for a worker-placement tabletop game. Take a peek at the mechanics and art as the idea takes shape.</p>
                 <a class="game-link" href="games/bathhouse">Learn more</a>
               </div>
             </article>
@@ -221,6 +230,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
             <article class="game-card">
               <a class="game-thumb" href="games/danslabyrinth">
+                <span class="game-status status-live">Available</span>
                 <img loading="lazy" src="assets/img/danslabyrinth.png" alt="Dan's Labyrinth: Tower Defense key art">
               </a>
               <div class="game-body">
@@ -236,6 +246,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <article class="game-card">
               <a class="game-thumb" href="games/spaceshipidle">
+                <span class="game-status status-dev">In Development</span>
                 <img loading="lazy" src="assets/img/spaceshipidle.png" alt="Spaceship Idle gameplay art">
               </a>
               <div class="game-body">
