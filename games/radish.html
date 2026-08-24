@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>radi.sh — Radish Internet Radio | squeak inc.</title>
+  <meta content="radi.sh (Radish Internet Radio) — a terminal-styled internet radio player by Squeak Inc. 50,000 stations behind a command line, 32 colour themes, a real spectrum analyser. No ads, no accounts, no tracking." name="description">
+  <!-- Open Graph / Twitter / canonical -->
+  <link rel="canonical" href="https://squeakincgames.com/games/radish">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Squeak Inc.">
+  <meta property="og:title" content="radi.sh — Radish Internet Radio | squeak inc.">
+  <meta property="og:description" content="50,000 radio stations behind a command line. A terminal-styled internet radio player by Squeak Inc.">
+  <meta property="og:url" content="https://squeakincgames.com/games/radish">
+  <meta property="og:image" content="https://squeakincgames.com/assets/img/radish_hero.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="500">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="radi.sh — Radish Internet Radio | squeak inc.">
+  <meta name="twitter:description" content="50,000 radio stations behind a command line. A terminal-styled internet radio player by Squeak Inc.">
+  <meta name="twitter:image" content="https://squeakincgames.com/assets/img/radish_hero.png">
+  <meta content="internet radio, radi.sh, radish, terminal radio, Android radio app, radio browser, spectrum analyser, squeak inc" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1a1b26">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,500,600,700|Poppins:300,400,500,600,700|JetBrains+Mono:400,500,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <style>
+    :root { --navbar: #7aa2f7; }
+
+    /* Terminal-style command list, echoing the app's own look */
+    .radish-commands {
+      background: #1a1b26;
+      color: #c0caf5;
+      border-radius: 10px;
+      padding: 22px 24px;
+      font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 14px;
+      line-height: 1.9;
+      overflow-x: auto;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+    }
+    .radish-commands .cmd { color: #7aa2f7; font-weight: 500; }
+    .radish-commands .arg { color: #9ece6a; }
+    .radish-commands .cmt { color: #565f89; }
+  </style>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"radi.sh","alternateName":"Radish Internet Radio","operatingSystem":"Android","applicationCategory":"MusicApplication","url":"https://squeakincgames.com/games/radish","image":"https://squeakincgames.com/assets/img/radish_hero.png","description":"A terminal-styled internet radio player. Roughly 50,000 stations behind a command line, 32 colour themes, and a real FFT spectrum analyser. No ads, no accounts, no tracking.","offers":{"@type":"Offer","price":"9.99","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Squeak Inc.","url":"https://squeakincgames.com/"}}</script>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="/" class="logo me-auto"><img loading="lazy" src="../assets/img/logo.png" alt="Squeak Inc."></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="/">Home</a></li>
+
+          <li class="dropdown"><a href="../games" class="active"><span>Games</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="../games">All Games</a></li>
+              <li><a href="gorbinosquest">Gorbino's Quest</a></li>
+              <li><a href="rust">Rust</a></li>
+              <li><a href="31">Thirty One Blitz</a></li>
+              <li><a href="bathhouse">Spirit Bathhouse</a></li>
+              <li><a href="danslabyrinth">Dan's Labyrinth</a></li>
+              <li><a href="spaceshipidle">Spaceship Idle</a></li>
+              <li><a href="radish" class="active">radi.sh</a></li>
+            </ul>
+          </li>
+
+          <li><a href="../faq">FAQs</a></li>
+          <li><a href="../blog">Blog</a></li>
+          <li><a href="../resources">Resources</a></li>
+          <li><a href="../about">About</a></li>
+          <li><a href="../contact">Contact</a></li>
+
+          <div class="header-social-links d-flex">
+            <a href="https://discord.gg/Z5r9G2tFHF" class="discord" aria-label="Discord"><i class="bu bi-discord"></i></a>
+            <a href="https://twitter.com/SettlersotCosmo" class="twitter" aria-label="X (Twitter)"><i class="bu bi-twitter"></i></a>
+            <a href="https://www.instagram.com/squeakinc.games/" class="instagram" aria-label="Instagram"><i class="bu bi-instagram"></i></a>
+          </div>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+
+
+     <!-- ======= Blog Single Section ======= -->
+     <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="entries">
+            <article class="entry entry-single">
+
+              <div class="entry-img">
+                <img loading="lazy" src="../assets/img/radish_hero.png" alt="radi.sh — 50,000 radio stations behind a command line" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="#">radi.sh &mdash; Radish Internet Radio</a>
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="#">Joey Vigil</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-phone"></i> <a href="#">Mobile &middot; Android</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-hourglass-split"></i> <a href="#">Coming soon to Google Play</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="#"><time datetime="2026-08-19">Aug 19, 2026</time></a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+
+                <p>
+                  <strong>A radio player that looks like a terminal, because it is one.</strong>
+                  radi.sh &mdash; the binary is <code>radish</code> &mdash; puts roughly
+                  <strong>50,000 internet radio stations</strong> behind a command line. Type a
+                  colon, type what you want, hit enter. No hamburger menus, no carousels, no
+                  algorithmic feed deciding what you are in the mood for. Prefer tapping? Every
+                  command has a button &mdash; the keyboard is an option, not a requirement.
+                </p>
+
+                <p><img loading="lazy" src="../assets/img/radish_screens.png" alt="radi.sh screenshots — station browser, spectrum analyser, theme picker, library, and system settings across five colour themes" style="max-width: 100%; height: auto; border-radius: 8px;"></p>
+
+                <h3>The command palette</h3>
+                <p>
+                  Everything is a command, and everything is discoverable &mdash; start typing and
+                  the palette filters as you go. Anything that isn't a command is treated as a search.
+                </p>
+                <div class="radish-commands">
+                  <span class="cmd">:search</span> <span class="arg">jazz</span>          <span class="cmt"># find stations by name</span><br>
+                  <span class="cmd">:tag</span> <span class="arg">shoegaze</span>         <span class="cmt"># browse a genre</span><br>
+                  <span class="cmd">:top</span> <span class="cmd">:trending</span> <span class="cmd">:random</span>  <span class="cmt"># surface something new</span><br>
+                  <span class="cmd">:play</span> <span class="cmd">:pause</span>          <span class="cmt"># transport control</span><br>
+                  <span class="cmd">:add</span> <span class="arg">&lt;url&gt;</span>          <span class="cmt"># add a stream the directory has never heard of</span><br>
+                  <span class="cmd">:theme</span> <span class="arg">gruvbox</span>        <span class="cmt"># repaint the whole app</span><br>
+                  <span class="cmd">:export</span> <span class="cmd">:import</span>       <span class="cmt"># take your library with you</span>
+                </div>
+
+                <h3>32 colour themes</h3>
+                <p>
+                  Tokyo Night, Gruvbox, Catppuccin, Ros&eacute; Pine, Nord, Everforest, Solarized and
+                  more &mdash; plus a set of CRT themes with optional scanlines and phosphor glow, for
+                  when you want the radio to look like it was salvaged from 1983. Light themes for
+                  daylight, dark themes for everything else.
+                </p>
+
+                <h3>A real visualiser</h3>
+                <p>
+                  A spectrum analyser and an oscilloscope, drawn in text. Turn on the live analyser and
+                  the bars follow the <em>actual</em> audio coming out of your phone &mdash; a genuine
+                  512-point FFT of what you are hearing, not a canned animation. With it off, a
+                  synthesised source keeps the bars moving, and the screen always says which one is
+                  running. It never claims to show your audio when it isn't.
+                </p>
+
+                <h3>Your library, your file</h3>
+                <p>
+                  Favourite what you like. The last 60 stations you played stay in your recents. Add
+                  custom stream URLs the directory has never heard of. Then <code>:export</code> copies
+                  the whole library to your clipboard as JSON &mdash; paste it into a note, mail it to
+                  yourself, keep it. <code>:import</code> merges it back on any device without
+                  overwriting what is already there. There is no account, so there is no lock-in: your
+                  library is a piece of text you own.
+                </p>
+
+                <h3>Plays in the background</h3>
+                <p>
+                  Full playback notification with lock-screen controls. Keeps streaming with the screen
+                  off. Every station has a page worth reading &mdash; bitrate, codec, transport, country,
+                  language, tune-in count and votes, plus a randomart fingerprint generated from its ID,
+                  the way SSH draws key fingerprints. Track titles appear as the stream broadcasts them.
+                </p>
+
+                <h3>No nonsense</h3>
+                <p>
+                  No ads. No accounts. No analytics. No crash reporting. No trackers of any kind.
+                  Nothing you do in the app is reported to anyone, because there is no server to report
+                  it to &mdash; everything it remembers lives on your phone and dies with the uninstall.
+                  Station data comes from <a href="https://www.radio-browser.info/" rel="noopener noreferrer" target="_blank">Radio Browser</a>,
+                  the free community-run directory; playing a station connects your device straight to
+                  that broadcaster's server, so radi.sh is never in the middle of your audio. You pay
+                  once &mdash; that is the entire business model, which is exactly why there is nothing
+                  in here harvesting you instead. Full details are in the
+                  <a href="../privacy-radish">radi.sh privacy policy</a>.
+                </p>
+
+                <blockquote>
+                  <p>50,000 stations, one <code>grep</code> away. radi.sh is <strong>coming soon to Google Play</strong> &mdash; a paid app with no ads, no accounts and no tracking.</p>
+                </blockquote>
+
+              </div>
+
+            </article><!-- End blog entry -->
+
+          </div><!-- End blog entries list -->
+
+        </div>
+
+      </div>
+    </section><!-- End Blog Single Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <!-- Newsletter signup -->
+        <!-- <div class="footer-newsletter-strip text-center">
+          <h4>Join the mailing list</h4>
+          <p>Occasional updates on new games and projects. No spam &mdash; squeak's honor.</p>
+          <form action="https://buttondown.email/api/emails/embed-subscribe/joeyvigil"
+                method="post" target="popupwindow"
+                onsubmit="window.open('https://buttondown.email/joeyvigil', 'popupwindow')"
+                class="newsletter-form">
+            <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+            <input type="hidden" value="1" name="embed">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div> -->
+
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Headquarters</h3>
+            <p>
+              Cheeseboard Cottage, Gouda Lane <br>
+              Rodentville, RM 12345<br>
+              Whiskerland <br><br>
+              <strong>Phone:</strong> +1 (719) SQU-EAKY <br>
+              <strong>Email:</strong> joey@squeakincgames.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.printplaygames.com/">Print Play Games</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.kickstarter.com/">Kickstarter</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://pandagm.com/">Panda Game Manufacturing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://game-icons.net/">game-icons.net</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://github.com/oatear/cider">CIDEr (html card development program)</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Site Navigation</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../games">Games</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../faq">FAQs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../blog">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../resources">Resources</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../about">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../contact">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../privacy">Squeak Radio Privacy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../privacy-radish">radi.sh Privacy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Socials</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://discord.gg/Z5r9G2tFHF">Discord</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://twitter.com/SettlersotCosmo">Twitter</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.instagram.com/squeakinc.games/">Instagram</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>squeak inc. Games</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed with <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://discord.gg/Z5r9G2tFHF" class="discord" aria-label="Discord"><i class="bu bi-discord"></i></a>
+        <a href="https://www.instagram.com/squeakinc.games/" class="instagram" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://twitter.com/SettlersotCosmo" class="twitter" aria-label="X (Twitter)"><i class="bx bxl-twitter"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" aria-label="Back to top"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script defer src="../assets/vendor/aos/aos.js"></script>
+  <script defer src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script defer src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script defer src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script defer src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script defer src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script defer src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script defer src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
