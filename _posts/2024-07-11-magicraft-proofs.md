@@ -1,6 +1,6 @@
 ---
 title: Magicraft Proofs and the Search for Reviewers
-image: /assets/img/slide2/wizard.webp
+image: /assets/img/blog/magicraft-proofs/cover.webp
 ---
 *"Daddy, what do taxes pay for?" "Why, everything! Policemen, trees, sunshine-- and let's not forget the folks who just don't feel like working, God bless 'em!"*
 
@@ -14,23 +14,23 @@ So far, we have one confirmed influencer, BoardGameTikTok, recommended by Joe an
 
 ### Board
 
-![Board proof](/assets/img/slide2/board_magic.webp)
+![Board proof](/assets/img/blog/magicraft-proofs/board.webp)
 
 ### Box
 
-![Box proof, front](/assets/img/slide2/box1_magic.webp)
-![Box proof, back](/assets/img/slide2/box2_magic.webp)
+![Box proof, front](/assets/img/blog/magicraft-proofs/box-1.webp)
+![Box proof, back](/assets/img/blog/magicraft-proofs/box-2.webp)
 
 ### Cards
 
-![Card proof 1](/assets/img/slide2/card1_magic.webp)
-![Card proof 2](/assets/img/slide2/card2_magic.webp)
+![Card proof 1](/assets/img/blog/magicraft-proofs/card-1.webp)
+![Card proof 2](/assets/img/blog/magicraft-proofs/card-2.webp)
 
 ### Punchboard
 
-![Punchboard proof](/assets/img/slide2/punchboard_magic.webp)
+![Punchboard proof](/assets/img/blog/magicraft-proofs/punchboard.webp)
 
 ### Rulebook
 
-![Rulebook proof 1](/assets/img/slide2/rules_magic.webp)
-![Rulebook proof 2](/assets/img/slide2/rules2_magic.webp)
+![Rulebook proof 1](/assets/img/blog/magicraft-proofs/rules-1.webp)
+![Rulebook proof 2](/assets/img/blog/magicraft-proofs/rules-2.webp)

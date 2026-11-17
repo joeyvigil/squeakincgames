@@ -1,6 +1,6 @@
 ---
 title: Thoughts on AI
-image: /assets/img/slide2/room.webp
+image: /assets/img/art/room.webp
 ---
 *edited by chatGPT*
 

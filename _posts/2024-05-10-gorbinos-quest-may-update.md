@@ -1,16 +1,16 @@
 ---
 title: Gorbino's Quest May Update
-image: /assets/img/slide/ELF.webp
+image: /assets/img/blog/gorbinos-quest-may-update/cover.webp
 ---
 *patch 2.234, long time since my last update*
 
 ### Board
 
-![Board, May update](/assets/img/slide/board_may.webp)
+![Board, May update](/assets/img/blog/gorbinos-quest-may-update/board.webp)
 
 ### Cards
 
-![Development card](/assets/img/slide/purp_dev.webp)
+![Development card](/assets/img/blog/gorbinos-quest-may-update/card.webp)
 
 ### Rules
 

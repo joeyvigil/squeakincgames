@@ -3,7 +3,7 @@
 {%- assign page_title = page.title | append: " | squeak inc." -%}
 {%- assign page_desc = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 -%}
 {%- assign page_url = page.url | remove: ".html" | prepend: site.url -%}
-{%- if page.image -%}{%- assign page_image = page.image | prepend: "/" | replace: "//", "/" | prepend: site.url -%}{%- else -%}{%- assign page_image = site.url | append: "/assets/img/og-image.jpg" -%}{%- endif %}
+{%- if page.image -%}{%- assign page_image = page.image | prepend: "/" | replace: "//", "/" | prepend: site.url -%}{%- else -%}{%- assign page_image = site.url | append: "/assets/img/brand/og-image.jpg" -%}{%- endif %}
 
 <head>
   <meta charset="utf-8">
@@ -27,8 +27,8 @@
   <link rel="alternate" type="application/atom+xml" title="squeak inc. blog" href="/feed.xml">
 
   <!-- Favicons -->
-  <link href="/assets/img/favicon.png" rel="icon">
-  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/assets/img/brand/favicon.png" rel="icon">
+  <link href="/assets/img/brand/apple-touch-icon.png" rel="apple-touch-icon">
   <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#df8e1d">
 
@@ -59,7 +59,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="/" class="logo me-auto"><img loading="lazy" src="/assets/img/logo.png" alt="Squeak Inc."></a>
+      <a href="/" class="logo me-auto"><img loading="lazy" src="/assets/img/brand/logo.png" alt="Squeak Inc."></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>

@@ -1,6 +1,6 @@
 ---
 title: Rapid Web Development
-image: /assets/img/slide/farmhouse2.webp
+image: /assets/img/blog/rapid-web-development/cover.webp
 ---
 *or... how I designed this website in less than a week*
 

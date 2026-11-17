@@ -1,6 +1,6 @@
 ---
 title: Catppuccin Update and What I’ve Been Up To
-image: /assets/img/slide2/catppuccin.webp
+image: /assets/img/blog/catppuccin-update/cover.webp
 ---
 *Oh look what the cat dragged in...*
 
@@ -10,13 +10,13 @@ Hey, it’s been a while. Sadly, Gorbino’s Quest didn’t meet its Kickstarter
 
 I’ve been tinkering with a train game inspired by Silverton, currently titled Rust. Only time will tell if it grows into a full project or ends up in the ever-growing “abandoned ideas” pile.
 
-![Thanks for playing](/assets/img/slide2/thanks_for_playing.webp)
+![Thanks for playing](/assets/img/blog/catppuccin-update/thanks-for-playing.webp)
 
 ### style.css
 
 If things look a little different around here, that’s because I added the Catppuccin color palette to the site. It brings a lot more vibrancy while also tying everything together with a consistent look.
 
-![Site colors](/assets/img/slide2/stylecolors.webp)
+![Site colors](/assets/img/blog/catppuccin-update/style-colors.webp)
 
 ### Coding Temple
 
@@ -26,4 +26,4 @@ Back in 2020, I went through a different bootcamp, Revature. That led to a role 
 
 Fast forward to today, and I’m cruising through the Coding Temple curriculum thanks to my prior experience. Fingers crossed it leads to a fulfilling career.
 
-![Coding Temple](/assets/img/slide2/coding_temple.webp)
+![Coding Temple](/assets/img/blog/catppuccin-update/coding-temple.webp)

@@ -1,6 +1,6 @@
 ---
 title: "Designer Diary: Rust"
-image: /assets/img/slide2/box_art2.webp
+image: /assets/img/games/rust/box-art.webp
 image_alt: Rust Box Art
 ---
 *"If there's nothing wrong with me... maybe there's something wrong with the universe." - Doctor Beverly Crusher*
@@ -11,7 +11,7 @@ The first game I ever designed was called *Settlers of the Cosmos*. It was suppo
 
 RIP Gorbino’s Quest. It’s still disappointing that I couldn’t get it published or run a successful Kickstarter for it.
 
-![Rust cards](/assets/img/slide2/Cards_all4.webp)
+![Rust cards](/assets/img/games/rust/cards.webp)
 
 ### Where Rust Is — And Where It Needs to Go
 
@@ -29,4 +29,4 @@ Then, after all of that — and ideally after building a decent following for th
 
 I think that’s the plan, anyway. But who knows if I’ll even want to go through with publishing it. It’s a lot of work.
 
-![Rust game board](/assets/img/slide2/GameBoard504x664mm_rust_jpg3.webp)
+![Rust game board](/assets/img/games/rust/board.webp)

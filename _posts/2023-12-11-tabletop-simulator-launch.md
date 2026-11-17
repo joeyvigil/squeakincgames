@@ -1,6 +1,6 @@
 ---
 title: Tabletop Simulator Launch & Failed Kickstarter
-image: /assets/img/slide/tts_logo.webp
+image: /assets/img/blog/tabletop-simulator-launch/cover.webp
 ---
 *Play Gorbino's Quest on Tabletop Simulator today & thoughts on relaunch*
 
@@ -8,7 +8,7 @@ image: /assets/img/slide/tts_logo.webp
 
 [🔗 TableTop Simulator](https://steamcommunity.com/sharedfiles/filedetails/?id=3111792472)
 
-![Gorbino's Quest on Steam](/assets/img/slide/tts_steam.webp)
+![Gorbino's Quest on Steam](/assets/img/blog/tabletop-simulator-launch/steam.webp)
 
 ### Failed Kickstarter and Plans for a Relaunch
 

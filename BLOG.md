@@ -5,7 +5,8 @@ No build step and no backend.
 
 ## New post
 
-1. Put images in `assets/img/blog/` (`.webp` keeps the page fast).
+1. Put images in `assets/img/blog/<short-name>/` (`.webp` keeps the page fast).
+   Name the main one `cover.webp`.
 2. Create `_posts/YYYY-MM-DD-short-name.md`. The date in the filename is the post
    date; `short-name` becomes the URL: `squeakincgames.com/posts/short-name`.
 3. Write it:
@@ -13,7 +14,7 @@ No build step and no backend.
 ```markdown
 ---
 title: "Designer Diary: Something New"
-image: /assets/img/blog/cover.webp      # big image at the top (optional)
+image: /assets/img/blog/my-post/cover.webp   # big image at the top (optional)
 image_alt: Box art for Something New    # optional, defaults to the title
 description: One sentence for link previews.   # optional
 ---
@@ -23,7 +24,7 @@ description: One sentence for link previews.   # optional
 
 A paragraph. **Bold**, *italic*, [a link](https://example.com).
 
-![Image description](/assets/img/blog/photo.webp)
+![Image description](/assets/img/blog/my-post/photo.webp)
 
 1. Numbered
 2. List

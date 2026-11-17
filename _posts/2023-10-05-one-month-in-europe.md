@@ -1,6 +1,6 @@
 ---
 title: One Month in Europe
-image: /assets/img/slide/Europe2.webp
+image: /assets/img/blog/one-month-in-europe/cover.webp
 ---
 *One night in Bangkok and the world's your oyster*
 
@@ -26,7 +26,7 @@ September 1st: Arrived, found hostel, drank with some people, karaoke
 
 10: Church, let feet heal (were full of blisters from Pilgrimage)
 
-![Munich](/assets/img/slide/Europe3.webp)
+![Munich](/assets/img/blog/one-month-in-europe/munich.webp)
 
 ### Part 2: Prague
 
@@ -38,7 +38,7 @@ September 1st: Arrived, found hostel, drank with some people, karaoke
 
 14: Hostel booked for Vienna, train booked, Last night in Prague
 
-![Prague](/assets/img/slide/Europe4.webp)
+![Prague](/assets/img/blog/one-month-in-europe/prague.webp)
 
 ### Part 3: Vienna
 
@@ -50,7 +50,7 @@ September 1st: Arrived, found hostel, drank with some people, karaoke
 
 18: Made travel reservations during the day, at night wandered for a few hours, found a chess club by the side of a subway, played against a New Yorker who kicked my butt (in chess).
 
-![Vienna](/assets/img/slide/Europe1.webp)
+![Vienna](/assets/img/blog/one-month-in-europe/vienna.webp)
 
 ### Part 4: Budapest
 
@@ -70,4 +70,4 @@ September 1st: Arrived, found hostel, drank with some people, karaoke
 
 26: Plane back at 10am
 
-![Budapest](/assets/img/slide/Europe5.webp)
+![Budapest](/assets/img/blog/one-month-in-europe/budapest.webp)

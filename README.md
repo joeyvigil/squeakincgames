@@ -51,11 +51,11 @@ This website is built with:
 
 ### Desktop Display
 
-![image](assets/img/desktop_display.jpg)
+![image](assets/img/readme/desktop.jpg)
 
 ### Mobile Display
 
-![image](assets/img/mobile_display.jpg)
+![image](assets/img/readme/mobile.jpg)
 
 ---
 

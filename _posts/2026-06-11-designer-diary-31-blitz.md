@@ -1,6 +1,6 @@
 ---
 title: "Designer Diary: 31 Blitz"
-image: /assets/img/slide2/cards_9x4_blitz.webp
+image: /assets/img/games/31/card-sheet.webp
 image_alt: 31 Blitz Cards
 ---
 *"The secret, I don't know... I guess you've just gotta find something you love to do and then... do it for the rest of your life. For me, it's going to Rushmore." — Max Fisher, Rushmore (1998)*
@@ -31,7 +31,7 @@ After a few rounds of follow-up questions and refinements, I ended up with a sur
 
 There were a few inconsistencies. For example, the face cards didn't include suit symbols, so I had to add those manually in InDesign. I also generated a card back and a coin design. Once everything was assembled, the prototype started to look surprisingly professional.
 
-![31 Blitz Card Back](/assets/img/slide2/card-back31.webp)
+![31 Blitz Card Back](/assets/img/games/31/card-back.webp)
 
 ### Rules
 
@@ -59,4 +59,4 @@ There isn't much to say about that process. I exported the card sheets, uploaded
 
 Simple, but effective.
 
-![31 Blitz Tabletop Simulator](/assets/img/slide2/blitz-tts.webp)
+![31 Blitz Tabletop Simulator](/assets/img/games/31/tts.webp)
