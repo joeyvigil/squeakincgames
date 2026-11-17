@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section id="{{ page.slug }}" class="blog">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div class="col-lg-8 entries">
+        {% include post-entry.html post=page body=content %}
+        <p><a href="/blog">&larr; All posts</a></p>
+      </div>
+      {% include post-sidebar.html heading="More Writings" %}
+    </div>
+  </div>
+</section>

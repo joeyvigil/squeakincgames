@@ -1,0 +1,37 @@
+# Jekyll config. GitHub Pages builds the site with this automatically on push.
+# Plain .html pages without front matter (index.html, games.html, ...) are
+# copied through untouched; only the blog uses Jekyll features.
+
+title: squeak inc.
+description: squeak inc. blog featuring news, updates, and articles about games, projects, and company developments.
+url: https://squeakincgames.com
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Each post gets its own page at /posts/<slug>
+permalink: /posts/:title
+
+plugins:
+  - jekyll-feed   # generates /feed.xml (RSS)
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Joey Vigil
+
+exclude:
+  - README.md
+  - BLOG.md
+  - LICENSE
+  - .vscode
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,29 @@
+{%- comment -%}
+  One blog post, rendered in the site's blog styling.
+  Usage: {% include post-entry.html post=post %}
+{%- endcomment -%}
+{%- assign p = include.post -%}
+<article class="entry entry-single">
+
+  {%- if p.image %}
+  <div class="entry-img">
+    <img loading="lazy" src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title | escape }}" class="img-fluid">
+  </div>
+  {%- endif %}
+
+  <h2 class="entry-title">
+    <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+  </h2>
+
+  <div class="entry-meta">
+    <ul>
+      <li class="d-flex align-items-center"><i class="bi bi-person"></i> {{ p.author }}</li>
+      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: '%B %-d, %Y' }}</time></li>
+    </ul>
+  </div>
+
+  <div class="entry-content">
+{{ include.body | default: p.content | replace: '<img src=', '<img loading="lazy" src=' }}
+  </div>
+
+</article><!-- End blog entry -->

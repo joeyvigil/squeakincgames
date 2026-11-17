@@ -1,0 +1,12 @@
+<div class="col-lg-4">
+  <div class="sidebar">
+    <h3 class="sidebar-title">{{ include.heading | default: "Earlier Writings" }}</h3>
+    <div class="sidebar-item categories">
+      <ul>
+        {%- for post in site.posts %}
+        <li><a class="nav-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
